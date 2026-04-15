@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="VisualNovel"
-run/main_scene="uid://d0vovrpt36ywa"
+run/main_scene="uid://beid1hhrnm8kt"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -22,8 +22,15 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
-directories/dch_directory={}
-directories/dtl_directory={}
+directories/dch_directory={
+"Abuela": "res://DialogicAssets/character/Abuela.dch",
+"Lilith": "res://DialogicAssets/character/Lilith.dch",
+"Madre": "res://DialogicAssets/character/Madre.dch",
+"Violet": "res://DialogicAssets/character/Violet.dch"
+}
+directories/dtl_directory={
+"Historia": "res://DialogicAssets/timelines/Historia.dtl"
+}
 layout/style_directory={}
 
 [editor_plugins]

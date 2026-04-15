@@ -1,22 +1,15 @@
-extends Node2D
+extends Control
 
-var dialogue_resource = DialogueResource
+@onready var play_button: Button = $VBoxContainer/PlayButton
+@onready var exit_button: Button = $VBoxContainer/ExitButton
 
-func _on_play_pressed() -> void:
-	_ready()
-	print("JUGANDO")
-	DialogueManager.show_example_dialogue_balloon(dialogue_resource, "start")
+func _ready() -> void:
+	if play_button:
+		play_button.grab_focus()
 
-func _on_option_pressed() -> void:
-	pass # Replace with function body.
+func _on_play_button_pressed() -> void:
+	# Iniciar timeline de Dialogic directamente
+	Dialogic.start("res://DialogicAssets/timelines/Historia.dtl")
 
-func _on_exit_pressed() -> void:
-	pass # Replace with function body.
-
-func _ready():
-	dialogue_resource = load("res://Capitulos/capitulo1.dialogue")
-	#comienzoDialogo()
-	#DialogueManager
-
- #func comienzoDialogo():
-	#DialogueManager.show_example_dialogue_balloon(dialogue_resource, "start")
+func _on_exit_button_pressed() -> void:
+	get_tree().quit()
