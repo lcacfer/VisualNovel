@@ -30,7 +30,9 @@ directories/dch_directory={
 "Violet": "res://DialogicAssets/character/Violet.dch"
 }
 directories/dtl_directory={
-"Historia": "res://DialogicAssets/timelines/Historia.dtl"
+"Historia": "res://DialogicAssets/timelines/Historia.dtl",
+"op1A": "res://DialogicAssets/timelines/op1A.dtl",
+"op1B": "res://DialogicAssets/timelines/op1B.dtl"
 }
 layout/style_directory={}
 layout/style_list=[]
