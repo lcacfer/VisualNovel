@@ -29,8 +29,7 @@ Trago saliva, se espera mucho de mi y no se si seré capaz de llegar a lo que es
 Me siento en el suelo como me indica mi abuela y cierro los ojos.
 *Background negro*
 No se cuanto tiempo pasó ni lo que está pasando, solo se que escuche ruidos y que me empezaron a colocar cosas...
-*Background final sala decorada(velas, incienso, bol de metal, especias)*
-(La abuela vestida de negro ojos cerrados)
+*Background final sala decorada(velas, incienso, bol de metal, especias)(La abuela vestida de negro ojos cerrados)*
 Miro a mi abuela, parecía que estaba meditando, ¿debo hacer lo mismo?
 Abuela: HOY NOS REUNIMOS PARA LA CEREMONIA DE LECTURA DE ALMAS DE LILITH
 Abuela: CON EL FIN DE DESCUBRIR SI ES UN ALMA PURA...
@@ -60,4 +59,10 @@ Violet: Eyyyy … Has tardado mucho, ¿Qué tal ayer?
 Lilith: Hola, prefiero no recordarlo...
 Empezamos a caminar por la calle, hablando de cualquier cosa que se nos ocurría.
 Me fijo en una persona que iba caminado prácticamente delante de mi, noto algo raro, como si saliera humo negro desde su interior.
-Decido seguir observándolo, quiero ver que es ese humo,
+Decido seguir observándolo, quiero ver que es ese humo.
+Despues de unos minnutos caminando llegamos a una zona de compras, vi como el hombre entraba en una calle.
+Violet: Estoy muerta de sed, ¿vamos aqui a tomarnos algo?
+- Si, vamos
+	jump op1-1A/
+- Creo que en esa calle de ahi hay un sitio mejor
+	jump op1-1B/
