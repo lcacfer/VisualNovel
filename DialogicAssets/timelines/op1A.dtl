@@ -63,6 +63,9 @@ Decido seguir observándolo, quiero ver que es ese humo.
 Despues de unos minnutos caminando llegamos a una zona de compras, vi como el hombre entraba en una calle.
 Violet: Estoy muerta de sed, ¿vamos aqui a tomarnos algo?
 - Si, vamos
-	jump op1-1A/
+	Lilith: Si, vamos.
+	Nos sentamos en una de las mesas de afuera, para aprobechar el día tan bonito que hacía.
+	Y para ver mejor si el hombre sale de la calle, ya que esa calle no tiene salida, solo hay algunas tiendas y bares.
+	<Empty Text Event>
 - Creo que en esa calle de ahi hay un sitio mejor
-	jump op1-1B/
+	Lilith: Creo que en esa calle de ahi hay un sitio mejor.
