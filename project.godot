@@ -31,8 +31,6 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "Historia": "res://DialogicAssets/timelines/Historia.dtl",
-"op1-1A": "res://DialogicAssets/timelines/op1-1A.dtl",
-"op1-1B": "res://DialogicAssets/timelines/op1-1B.dtl",
 "op1A": "res://DialogicAssets/timelines/op1A.dtl",
 "op1B": "res://DialogicAssets/timelines/op1B.dtl"
 }
